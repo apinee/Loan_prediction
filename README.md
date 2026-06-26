@@ -86,3 +86,55 @@ enhancement of lending decision processes.
 
  **Random Forest Classifier:**
 The Random Forest model demonstrates exceptional performance in predicting loan status, achieving a high accuracy of 97.89%. This strong predictive capability is further validated by its balanced performance across key evaluation metrics. The model achieves near-perfect precision and recall scores for both approved and rejected loans, indicating a high degree of accuracy in identifying both categories. The F1-score, a combined measure of precision and recall, also reflects this balanced performance. Furthermore, the model achieves a strong R² score of 0.9098, signifying a robust fit between its predictions and the actual loan outcomes. This high R² score, coupled with low error rates as evidenced by the low Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE), underscores the model’s strong predictive capability. These findings suggest that the Random Forest model, with its robust performance and ability to capture complex relationships within the data, holds significant promise for improving loan approval processes and enhancing risk management within the financial sector.
+
+
+## 🚀 Setup & Installation
+
+### Prerequisites
+- Python 3.8+
+- Jupyter Notebook
+
+### Steps to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/apinee/Loan_prediction.git
+   cd Loan_prediction
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
+
+4. **Open and run** `LOAN_PREDICTION_.ipynb` — execute all cells from top to bottom.
+
+---
+
+## 📁 Project Structure
+
+```
+Loan_prediction/
+│
+├── LOAN_PREDICTION_.ipynb   # Main notebook with full pipeline
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+```
+
+---
+
+## 📊 Dataset
+
+The dataset is sourced from [Kaggle — Loan Approval Prediction](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset).
+
+- **Size**: 4,269 loan applications
+- **Features**: 13 attributes including applicant demographics, financial records, credit history, and asset values
+- **Target**: `loan_status` (Approved / Rejected)
+
+> Download `loan_approval_dataset.csv` from Kaggle and place it in the root of the project directory before running the notebook.
+
